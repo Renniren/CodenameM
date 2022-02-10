@@ -1,0 +1,154 @@
+{
+    "name": "controls",
+    "maps": [
+        {
+            "name": "Main",
+            "id": "6540981e-6857-47ba-9cfc-2a8f8fd70138",
+            "actions": [
+                {
+                    "name": "LightAttack",
+                    "type": "Button",
+                    "id": "c22725fc-f058-437c-a650-9553f81b5cbe",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HeavyAttack",
+                    "type": "Button",
+                    "id": "6f8b3516-16df-47ef-a6ac-d2afbd7e4618",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ShortHop",
+                    "type": "Value",
+                    "id": "966c9cd7-de41-45a6-b28b-60466d12b416",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Jump",
+                    "type": "PassThrough",
+                    "id": "d0dcfd76-c156-4dbe-8995-9da96aa61eb4",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LeftStick",
+                    "type": "PassThrough",
+                    "id": "0eba3cce-dd95-4763-83ab-22c14f8d4f50",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RightStick",
+                    "type": "PassThrough",
+                    "id": "45e6b75f-f9d3-4cc0-b42d-129873efcee9",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Shield",
+                    "type": "Value",
+                    "id": "6bf48876-cfe4-464e-8097-88b46367a3e1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9479e026-e8ab-46a8-8a25-ec9462772bf9",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "Press(pressPoint=1.401298E-45)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LightAttack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b45e3975-b32b-4a97-9e76-914e52a2342c",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "Press(pressPoint=1.401298E-45)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HeavyAttack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a584b5c0-1579-45a1-b033-0565f64d0aa4",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "Press(pressPoint=1.401298E-45)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ShortHop",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f58b8266-e5a5-4d04-8fdc-aea81a0c059d",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "Press(pressPoint=1.401298E-45)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b714cef5-f6f5-4a08-a530-84a1cf8b28a2",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "StickDeadzone(min=0.18)",
+                    "groups": "",
+                    "action": "LeftStick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bd970591-6503-4876-b58f-3289f0f9c48a",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "StickDeadzone(min=0.18,max=0.925)",
+                    "groups": "",
+                    "action": "RightStick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a70cb1c7-78c9-41a5-8407-8f26497fb268",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shield",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

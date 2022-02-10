@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 336406c7bceed90499e15e86f74e7481, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  Characters:
+  - CharacterName: Fistfighter
+    Icon: {fileID: 0}
+    Prefab: {fileID: 3089253779281382845, guid: 60f860edbfd5fbd498ad3a40d34effeb, type: 3}
+  - CharacterName: Swordfighter
+    Icon: {fileID: 0}
+    Prefab: {fileID: 3089253779281382845, guid: 60f860edbfd5fbd498ad3a40d34effeb, type: 3}
